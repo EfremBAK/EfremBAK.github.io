@@ -5,8 +5,14 @@ body{
 }
 
 h2{
-    color: rgb(51, 28, 51);
+    color: rgb(20, 208, 233);
+    font-family: cursive;
 }
 emp{
     color: chartreuse;
+}
+
+h1{
+    font:900;
+    font-family: Arial, Helvetica, sans-serif;
 }
