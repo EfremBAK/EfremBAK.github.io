@@ -1,10 +1,38 @@
+/* css for granny pir recipe */
+body{
+    background-color: whitesmoke;
+    columns: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+}
+
 h1, h2, h3, h3{
     color:#A4A400;
    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
     background-color: #F0F0F0;
+    text-decoration: underline;
 }
 h1{
     text-align: center;
     font-size: 22pt;
     font-weight: bold;
+}
+
+h2, h3, h4{
+text-align: left;
+font-size: 18pt;
+font-weight: normal;
+}
+
+a{
+    color:#A4A400;
+}
+
+div.no_space{
+line-height: 0 ;
+}
+
+blockquote{
+    font-style: italic;
+    background-color:  #FFFFA8 ;
 }
