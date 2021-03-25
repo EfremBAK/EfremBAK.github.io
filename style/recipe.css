@@ -8,7 +8,7 @@ body{
 
 h1, h2, h3, h3{
     color:#A4A400;
-   font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+   font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
     background-color: #F0F0F0;
     text-decoration: underline;
 }
@@ -29,7 +29,7 @@ a{
 }
 
 div.no_space{
-line-height: 0 ;
+line-height:0em ;
 }
 
 blockquote{
