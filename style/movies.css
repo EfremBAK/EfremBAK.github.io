@@ -1,0 +1,87 @@
+/* movies css */
+
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+  }
+  .banner {
+    background-image: url("/resources/tmnt/bannerbg.png");
+    background-repeat: repeat;
+    text-align: center;
+    height: 50px;
+  }
+  .container {
+    margin: auto;
+    border-width: 4px;
+    max-width: 800px;
+    border-color: gray;
+    border-radius: 10px;
+    border-style: solid;
+  }
+  body {
+    background-image: url("/resources/tmnt/background.png");
+  }
+  .right_section {
+    float: right;
+    width: 250px;
+    background-color: #A2B964;
+    padding: 10pt;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+  }
+  .left_section {
+    width: 550px;
+  }
+  .rbg {
+    background-image: url("/resources/tmnt/rbg.png");
+    background-repeat: repeat;
+    height: 83px;
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+  }
+  .col_review {
+    width: 47%;
+    float: left;
+  }
+p#rev{
+    font-size: 8;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #E8DC9B;
+    border: 2px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+    padding: 8px;
+}
+p{
+   
+    font-style: italic;
+}
+#icon{
+    padding-right: 8px;
+    float: left;
+}
+#critic{
+    padding-right: 5px;
+    float: left;
+}
+dl, dt, dd{
+    font-weight: bold;
+}
+ul{
+    list-style-type:none;
+    list-style-position: inherit;
+}
+.footer{
+    background-color: #A2B964;
+    text-align: center;
+    height: 10px;
+}
+#valid{
+    float: right;
+}

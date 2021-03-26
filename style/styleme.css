@@ -1,36 +1,44 @@
-body{
-   background-color:rgb(60, 161, 161);
+body {
+    background-color: rgb(60, 161, 161);
     /* background-color: rgb(90, 78, 78); */
     color: whitesmoke;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h2{
+h2 {
     color: rgb(4, 62, 85);
     font-family: cursive;
+    opacity: 0.5;
 }
-em{
+
+em {
     color: chartreuse;
 }
 
-h1{
-    font-size:5em;
+h1 {
+    font-size: 5em;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
-nav{
+
+nav {
     height: 60px;
-    color: #fff; 
-    background-color: #666; 
+    color: #fff;
+    background-color: #666;
     opacity: 0.7;
     /* list-style-type: none; */
-    margin: 0; 
+    margin: 0;
     padding: 0;
     width: 100%;
 }
-.image{
-    border: 2px; width: auto; height: 15em;
+
+.image {
+    width: 15em;
+    height: 15em;
+    border-radius: 15em;
+    position: relative;
+    top: 1em;
 }
-ul{
+
+ul {
     color: white;
 }

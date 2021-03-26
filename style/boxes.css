@@ -1,0 +1,22 @@
+/* class exercise css */
+
+.red {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.red ::first-letter {
+    font-size :3em;
+    transform: rotateX(180deg);
+}
+
+.blue {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    text-align: right;
+}
