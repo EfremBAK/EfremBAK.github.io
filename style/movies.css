@@ -58,7 +58,7 @@ h1 {
     margin:auto;
     overflow: auto;
   }
-p#rev{
+p.rev{
     font-size: 8;
     font-weight: bold;
     font-style: normal;
@@ -73,11 +73,11 @@ p{
    
     font-style: italic;
 }
-#icon{
+.icon{
     padding-right: 8px;
     float: left;
 }
-#critic{
+.critic{
     padding-right: 5px;
     float: left;
 }
