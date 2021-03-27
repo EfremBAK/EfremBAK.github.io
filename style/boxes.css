@@ -1,6 +1,6 @@
 /* class exercise css */
 
-.red {
+/* .red {
     background-color: red;
     width: 200px;
     height: 200px;
@@ -19,4 +19,53 @@
     top: 100px;
     left: 100px;
     text-align: right;
-}
+} */
+
+/* q1
+#outer {
+    border: 2px dashed black;
+    padding: 10px;
+    overflow:hidden;
+   
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+    float:right;
+  }
+  .x{
+      clear:right;
+  } */
+
+  /* q2
+  ul {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  li {
+    display: inline;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+  } */
+
+  #container {
+    background-color: lightgray;
+    overflow: hidden;
+    padding: 10px;
+    width: 500px;
+  }
+  #column1, #column2 {
+    background-color: lightblue;
+    float: right;
+    margin-left: 10px;
+    width: 100px;
+  }
+  h1 {
+    background-color: yellow;
+  }

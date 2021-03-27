@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-primary justify-content-between">
+        <span class="navbar-brand mr-sm-4 text-light">MUM Golden Dome Market : : : SRM System</span>
+
+        <label class="navbar-nav mr-2  text-light"> | </label>
+        <label class="navbar-nav mr-2  text-light"> products </label>
+        <label class="navbar-nav mr-2  text-light"> | </label>
+        <label class="navbar-nav mr-2  text-light">supplier </label>
+        <label class="navbar-nav mr-auto  text-light"></label>
+        <label class="navbar-nav mr-auto  text-light"></label>
+        <label class="navbar-nav mr-auto  text-light"></label>
+        <label class="navbar-nav mr-auto  text-light"></label>
+        <label class="navbar-nav mr-auto  text-light"></label>
+        <form class="form-inline">
+            <label class="mr-sm-2 text-light" for="signout">Hello!</label>
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="signout">Sign Out</button>
+        </form>
+    </nav>
+    <h3>New Product Form</h3>
+    <div class="container">
+        <form>
+            <div class="row form-group">
+                <div class="col">
+                    <label for="url">Product Number</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col">
+                    <label for="url">Quantity in stock</label>
+                    <input type="text" class="form-control" placeholder="0">
+                </div>
+            </div>
+
+            <div class="row form-group">
+                <div class="col">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col">
+                    <label for="url">Supplier</label>
+                    <Select class="form-control">
+                        <option value="x" selected>Select a supplier</option>
+                        <option value="y">Select another supplier</option>
+                    </Select>
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col">
+                    <label for="unit">Unit Price</label>
+                    <input type="text" class="form-control" placeholder="0.0">
+                </div>
+                <div class="col">
+                    <label for="url">Date Supplied</label>
+                    <input type="date" class="form-control">
+                    <small class="form-text text-muted">enter a valid date</small>
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col">
+
+                </div>
+                <div class="col">
+                    <div class="row form-group">
+                        <div class="col-4"> </div>
+                        <div class="col-8">
+                            <input type="reset" class="btn btn-outline-primary" value="reset">
+                            <input type="submit" name="submit" value="Cancel" class="btn btn-outline-primary">
+                            <input type="submit" name="submit" value="Add Product" class="btn btn-outline-primary">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="container">
+        <form>
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>
