@@ -13,39 +13,50 @@ h1 {
     text-align: center;
     height: 50px;
   }
-  .container {
+  .container1 {
     margin: auto;
-    border-width: 4px;
     max-width: 800px;
+    border-width: 4px;
     border-color: gray;
-    border-radius: 10px;
     border-style: solid;
+    border-radius: 10px;
+    overflow: auto;
   }
   body {
     background-image: url("/resources/tmnt/background.png");
+    font-size: 10pt;
   }
   .right_section {
     float: right;
     width: 250px;
     background-color: #A2B964;
-    padding: 10pt;
     font-size: 8pt;
     font-family: Arial, sans-serif;
+   
   }
   .left_section {
     width: 550px;
+    overflow: auto;
+    float: left;
   }
   .rbg {
     background-image: url("/resources/tmnt/rbg.png");
     background-repeat: repeat;
     height: 83px;
+  }
+
+  #d{
     font-size: 48pt;
     color: red;
     font-weight: bold;
+    vertical-align: top;
   }
-  .col_review {
+  .col_review{
     width: 47%;
     float: left;
+    padding: 5px;
+    margin:auto;
+    overflow: auto;
   }
 p#rev{
     font-size: 8;
@@ -77,11 +88,20 @@ ul{
     list-style-type:none;
     list-style-position: inherit;
 }
-.footer{
-    background-color: #A2B964;
-    text-align: center;
-    height: 10px;
+
+#x{
+  background-color: #A2B964;
+  text-align: center;
+  overflow: auto;
+  width: 550px;
+  font-size: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border-bottom: 0px ;
+
+ 
 }
-#valid{
-    float: right;
+.sev{
+  float: right;
+
 }
