@@ -31,6 +31,7 @@ for(const x in z){
     console.log(x);
 }*/
 
+/*
 function findMax(){
     let max = -Infinity;
     for (let i = 0; i< arguments.length; i++){
@@ -45,4 +46,5 @@ function findMax(){
 }
 
 const max1 = findMax(5,2,7,35);
-console.log(max1);
+console.log(max1);*/
+

@@ -1,3 +1,5 @@
+//human age to dog age converter
+
 const myAge = 8;
 //create  constant variable, i.e ur age
 let earlyYears = 2;
