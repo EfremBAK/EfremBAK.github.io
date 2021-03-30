@@ -4,7 +4,7 @@
 // question 1
 
 let maxNum;
-/*
+
 function max(x, y){
     if(x>y){
         maxNum = x;
@@ -19,10 +19,9 @@ function max(x, y){
 };
 console.log('answer for quesion 1 is, max of two is:   ' + max(4,5));
 
-*/
 
 //question 2
-/*
+
 function maxOfThree(x, y, z) {
     if (x > y && x > z) {
         maxNum = x;
@@ -39,10 +38,10 @@ function maxOfThree(x, y, z) {
     } return maxNum;
 }
 console.log(maxOfThree(6, 2, 3))
-*/
+
 
 //question 3
-/*
+
 let vowels = ["a","u","i", "o", "e"];
 let bool = false;
 function isVowel(word) {
@@ -55,10 +54,10 @@ function isVowel(word) {
     }return bool;
 }
 console.log(isVowel("e"));
-*/
+
 
 //question 4
-/*
+
 let add=0;
 let prod = 1;
 function sum(numbers){
@@ -76,10 +75,10 @@ function multiply(numbers){
     return prod;
 }
 console.log(multiply([1,2,3,4]));
-*/
+
 
 // question 5
-/*
+
 let temp='';
 function reversal(revers){
     for(let i = revers.length-1; i>=0; i--){
@@ -88,10 +87,10 @@ function reversal(revers){
     return temp;
 }
 console.log(reversal('hello world'));
-*/
+
 
 //question 6
-/*
+
 let biggest=0;
 function findLongestWord(words){
     for(let i=0; i<words.length; i++){
@@ -104,8 +103,7 @@ function findLongestWord(words){
     return biggest;
 }
 console.log(findLongestWord(['hello', 'word', 'sdfgshdfh']))
-*/
 
-/*
-*
-*/
+//
+
+

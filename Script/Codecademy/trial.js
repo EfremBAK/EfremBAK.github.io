@@ -48,3 +48,39 @@ function findMax(){
 const max1 = findMax(5,2,7,35);
 console.log(max1);*/
 
+/*
+let x = 0;
+function sum(v, ...more){
+    
+    for(let i =0;i<arguments.length;i++){
+  x= x+arguments[i];
+}
+return x;
+}
+console.log(sum(1,2,3,4,54));
+*/
+
+//remember this code
+const doubleEyeFun =[];
+for (var i=1; i<5; i++){
+    doubleEyeFun[i] = function(){
+        return i*2;
+    }
+}
+console.log(doubleEyeFun[1]());//10
+console.log(doubleEyeFun[2]());//10
+console.log(doubleEyeFun[3]());//10
+console.log(doubleEyeFun[4]());//10
+
+//but when we use 'let' then it will be a blcok variable and everytime
+// we console.log(doubleEyeFun[x]()), the function is creating an array of size [x].
+const doubleEyeFun =[];
+for (var i=1; i<5; i++){
+    doubleEyeFun[i] = function(){
+        return i*2;
+    }
+}
+console.log(doubleEyeFun[1]());//2
+console.log(doubleEyeFun[2]());//4
+console.log(doubleEyeFun[3]());//6
+console.log(doubleEyeFun[4]());//8
