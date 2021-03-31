@@ -1,0 +1,21 @@
+li {
+    border-right: 1px solid;
+    border-color: white;
+}
+button {
+    margin-left: 10px;
+}
+#display_table {
+    margin-top: 10px;
+}
+
+#gore{
+    color: #ffffff; 
+    margin-right: 0em;
+    font-size: 2em;
+}
+
+#emails
+{
+    color: red;
+}

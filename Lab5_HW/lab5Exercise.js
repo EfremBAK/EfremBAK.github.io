@@ -104,6 +104,27 @@ function findLongestWord(words){
 }
 console.log(findLongestWord(['hello', 'word', 'sdfgshdfh']))
 
-//
+//question 11
+function sumfunc(nums){
+    return nums.reduce((acc, n) => acc+n);
+}
+console.group(sumfunc([1,2,3,4,5]));
 
-
+//question 12
+function finSecondBiggest(nums){
+    if(nums.length<2)
+    throw new error('error');
+let biggest = (nums[0]> nums[1])?nums[0]: num[1];
+let secondbiggest= (nums[0]=== biggest)?nums[1] :num[2];
+ //let i=2;
+ for(let i =2; i<nums.length; i++){
+     if(nums[i]> biggest){
+         secondbiggest=biggest;
+         biggest=nums[i];
+     }
+     else if(nums[i]> secondbiggest){
+         secondbiggest=nums[i];
+     }
+ }return secondbiggest;
+}
+console.log(finSecondBiggest([22,4, 55]))
