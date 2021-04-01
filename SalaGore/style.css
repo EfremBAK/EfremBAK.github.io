@@ -19,3 +19,7 @@ button {
 {
     color: red;
 }
+
+#strtline{
+    border-left: white 3px solid; padding-left: 2em; padding-right: 2em;
+}
