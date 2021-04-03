@@ -8,14 +8,14 @@ window.onload = function(){
 }
 function hello(){
     //alert("hello world");
-    var textArea = document.getElementById("textA");
-    var fsize = textArea.style.fontSize;
-    textArea.style.fontSize=parseInt(fsize+2)+"pt";
+    var textArea = document.getElementById("note");
+    var fonts = textArea.style.fontSize;
+    textArea.style.fontSize=parseInt(fonts+2)+"pt";
 }
 
 
 function sytleChange(){
-    var textArea = document.getElementById("textA");
+    var textArea = document.getElementById("note");
        if( textArea.style.fontWeight!="bold"){ 
         textArea.style.fontWeight="bold";
         textArea.style.color="green";
