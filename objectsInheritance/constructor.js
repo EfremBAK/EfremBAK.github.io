@@ -22,7 +22,7 @@ CONSTRUCTOR FUNCTION
 // console.log(new Student(02, "bob"));
 // console.log(new Student(03, "carlos") )
 
-function Person(){
+/*function Person(){
     console.log(this);
     this.university = "MIU";
     this.year = 2021;
@@ -36,13 +36,26 @@ function Person(){
   
   const greeting = faculty1.greet();
   console.log(greeting);
+*/
 
+/*function Course(cname){
+    this.cname= cname;
+    console.log('constructor function invoked');
+    //implicit return of 'this' when called via 'new'
+}
 
+//add function register to prototype of all course objects(created from //course constructor)
+Course.prototype.register = function(){
+    return 'Register ' + this.cname;
+}
 
-
-
-
-
+const wap = new Course('WAP');
+console.log(wap);
+console.log(wap.__proto__);
+console.log(wap instanceof Course);
+console.log(Course.prototype.register);
+console.log(wap.register());
+*/
 
 // let user = {
 //     name: "jack",
@@ -58,3 +71,6 @@ function Person(){
 // return a*b;
 //     }
 // };
+
+ let obj = {}
+ console.log(obj)
