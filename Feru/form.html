@@ -4,46 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS472-WAP - Contact Form</title>
-
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
     <!-- 1. External stylesheet-->
     <link rel="stylesheet" href="style.css" type="text/css">
-    <script defer src="behaviour.js"></script>
+    <script defer src="oldJquery.js"></script>
 </head>
 <body>
-<header>
-    <!-- TODO Add nav here -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">The South West-Regional Census</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+    <header>
+        <nav>
+            <ul id="ulNavItems">
+                <li>
+                    <a id="hyplnkAppBranding" href="index.html">CS472:::MiniBankingApp</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="form.html">Census Form</a>
-                </li>
-
+                <!-- <li>
+                    <a class="hyplnkNavItem" href="./index.html">Home</a>
+                </li> -->
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <p id="time"></p>
-
-            </form>
+        </nav>
+        <div id="divHeaderRightContent">
+            <span style="float: right;">Welcome, Guest</span>
         </div>
-    </nav>
-</header>
+    </header>
     <main>
         <div class="container">
             <!-- TODO Add content here -->
             <h1 >Customer Contact Form</h1>
             <hr>
             <!-- Implement Web form here-->
-            <form id="consusForm" method="POST" action="contact-form-handler">
+            <form id="consusForm" >
                 <fieldset>
                     <legend></legend>
                     <div class="form-group">
@@ -81,33 +70,42 @@
                             <div class="form-group">
                                 <label >*Senior Citizen:</label>
                                 <div class="custom-control custom-radio">
-                                    <input required="" type="radio" name="radioCitizen" id="radioCitizenYes" class="custom-control-input" value="Yes">
-                                    <label for="radioCitizenYes" class="custom-control-label">Yes</label>
+                                    <input required="" type="radio" name="radioCitizen" id="Yes" class="custom-control-input" value="Yes">
+                                    <label for="Yes" class="custom-control-label">Yes</label>
                                 </div>
                                 <div class="custom-control custom-radio">
-                                    <input type="radio" name="radioCitizen" id="radioCitizenNo" class="custom-control-input" value="No">
-                                    <label for="radioCitizenNo" class="custom-control-label">No</label>
+                                    <input type="radio" name="radioCitizen" id="No" class="custom-control-input" value="No">
+                                    <label for="No" class="custom-control-label">No</label>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <button id="btnreset" type="reset" class="btn btn-primary ">Reset</button>
+                    <!-- <button id="btnreset" type="reset" class="btn btn-primary ">Reset</button> -->
                     <button id="btnSubmit" type="submit" class="btn btn-primary ">Submit</button>
                 </fieldset>
             </form>
-            <table class="table table-striped" id="tableCansus">
+            <table id="tblAccounts">
+                <!-- <caption>List of Customer Accounts</caption> -->
                 <thead>
-                <tr>
-                    <th scope="col">Citizen ID</th>
-                    <th scope="col">Social security</th>
-                    <th scope="col">Full Name</th>
-                    <th scope="col">State</th>
-                    <th scope="col">Senior</th>
-                </tr>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Full name</th>
+                        <th scope="col">Citizen ID</th>
+                        <th scope="col">SSN</th>
+                        <th scope="col">State</th>
+                        <th scope="col">Senior</th>
+                    </tr>
                 </thead>
                 <tbody>
-
+                    <tr>
+                        <td>1.</td>
+                        <td>James H. Karvill</td>
+                        <td>123412342</td>
+                        <td>111-22-2333</td>
+                        <td>Arizona</td>
+                        <td>Yes</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
