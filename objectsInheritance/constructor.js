@@ -74,3 +74,10 @@ console.log(wap.register());
 
  let obj = {}
  console.log(obj)
+
+function animal(){
+  eat: 'fruits';
+}
+
+let rabbit = Object.create(animal);
+console.log(rabbit.eat);
