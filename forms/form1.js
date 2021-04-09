@@ -1,17 +1,19 @@
+"use strict"
+
 $(function(){
- $("#login").submit(
-     function(evt){
-         evt.preventDefault();
+ $("#login").on("submit",
+     event =>{
+         event.preventDefault();
          const email = $("#email").val();
          const pass = $("#password").val();
          const url = $("#url").val();
 
-         let newInput = `<tr><td>${email}</td><td>${password}</td><td>${url}</td></tr>`;
-         $("data_display").append(newInput);
-        //  console.log(email);
-        //  console.log(pass);
-        //  console.log(url);
-     }
- );
-}
-);
+        //  const tables = $("#tbls");
+        //  const newRecord = tables.find('tbody')
+        //  .append( `<tr><td>${email}</td><td>${password}</td><td>${url}</td></tr>`);
+        //  tables.show().append(newRecord);
+        
+         console.log(` email: ${email}, password: ${pass}, url:${url}`);
+
+     });
+});

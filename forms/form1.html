@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form 1</title>
-    <script src="form1.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="form1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./js/jquery-3.5.0.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -16,7 +18,7 @@
 
     <h1>form one</h1>
     <div class="container">
-        <form action="post" id="login" name="login">
+        <form id="login" name="login">
             <div class="form-group">
                 <label for="email">Email Address </label>
                 <input type="email" class="form-control" id="email" placeholder="Enter email">
@@ -35,36 +37,45 @@
             <div class="form-checkbox">
                 <input type="checkbox" class="form-check-input" id="checker">
                 <label for="checker"> check me out</label>
-            <!-- </div>
-            <input type="submit" name="submit" value="click to submit" class="btn btn-primary"> -->
+             </div>
+            <input type="submit" name="submit" value="click to submit" class="btn btn-primary"> 
 
-    <!-- </div> -->
-
-
-
-    <div style="text-align: right" id="buttons">
-        <input
-          type="reset"
-          value="Reset"
-          class="btn btn-secondary btn-lg"
-        />
-        <input
-          style="color: white"
-          type="submit"
-          value="Register Patient"
-          id="submit"
-          class="btn btn-inline bg-danger"
-        />
-      </div>
-
-
-      
+    </div> 
     </form>
     </fieldset>
     </div>
-    <table>
-        <tbody id="data_display"></tbody>
-    </table>
+    <!-- <table id ="tbls">
+         <caption>List of Customer Accounts</caption> 
+        <thead>
+            <tr>
+                <th scope="col">Email</th>
+                <th scope="col">Password</th>
+                <th scope="col">URL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>email@gmail.com</td>
+                <td>mypass</td>
+                <td>http://url.com</td>
+            </tr>
+        </tbody>
+    </table> -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
 </body>
 
 </html>
